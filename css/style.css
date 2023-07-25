@@ -3,7 +3,8 @@
 :root {
     --font-family:'Montserrat', sans-serif;
     --bg-color:#950101;
-    --primary-color:#E8FFCE;    
+    --primary-color:#E8FFCE; 
+    --color: #3D0000;   
 }
 
 body {
@@ -43,4 +44,15 @@ h3 {
     font-size: 3.5em;
     padding: 10px;
     margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    color: var(--bg-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
 }
