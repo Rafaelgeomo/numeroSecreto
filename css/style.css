@@ -57,3 +57,26 @@ h3 {
     font-size: 1.2em;
     cursor: pointer;
 }
+
+.game-over{
+    background-color: var(--game-over);
+    color: var(--primary-color);
+}
+
+.btn-game-over{
+    font-family: var(--font-family);
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--primary-color);
+    padding: 8px 15px;
+    border: 2px solid var(--primary-color);
+    background: var(--bg-color2);
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.btn-game-over:hover{
+    color: var(--game-over);
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
