@@ -1,7 +1,7 @@
 function verificaSeOChutePossuiUmValorValido(chute) {
     const numero = +chute;
 
-    if (chute.toUpperCase()==='GAME OVER'){
+    if (chute.toUpperCase()==='GAME OVER' || 'Qual o numero secreto'){
         document.body.classList.add("game-over")
         document.body.innerHTML =`
         <h2>GAME OVER !!!</h2>
