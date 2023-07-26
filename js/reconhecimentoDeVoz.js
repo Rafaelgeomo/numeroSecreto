@@ -12,6 +12,7 @@ function onSpeak(e){ //Essa função onSpeak vai exibir tudo que eu estou faland
     chute = e.results[0][0].transcript;
     exibeChuteNaTela(chute);
     verificaSeOChutePossuiUmValorValido(chute);
+    gameOver(chute);
 }
 
 function exibeChuteNaTela(chute){ // aqui criamos uma função para mostrar o que pegamos da função onSpeak para mostrar na tela.

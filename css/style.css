@@ -4,7 +4,8 @@
     --font-family:'Montserrat', sans-serif;
     --bg-color:#950101;
     --primary-color:#E8FFCE; 
-    --color: #3D0000;   
+    --color: #3D0000;
+    --game-over:#000000;   
 }
 
 body {

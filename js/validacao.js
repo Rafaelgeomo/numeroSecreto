@@ -11,7 +11,7 @@ function verificaSeOChutePossuiUmValorValido(chute) {
         <div>Valor inválido: Fale um número entre ${menorValor} e ${maiorValor} </div>`
         return
     }
-
+   
     if (numero === numeroSecreto) {
         document.body.innerHTML = `
         <h2>Você acertou!</h2>
@@ -38,6 +38,17 @@ function numeroForMaiorOuMenorQueOValorPermitido(numero) {
     return numero > maiorValor || numero < menorValor
 }
 
+function gameOver (chute){
+    if (chute === "game over" || chute === "o jogo acabou"){
+        document.body.innerHTML = `
+        <h2>Game Over!!!</h2>
+        <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>
+        `
+        document.body.style.backgroundColor = "#000000";
+
+    }
+}
+console.log(gameOver)
 document.body.addEventListener('click', e => {
     if(e.target.id == 'jogar-novamente'){
         window.location.reload()
